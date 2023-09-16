@@ -33,6 +33,10 @@ sudo apt install unzip
   eksctl create cluster --name my-eks-cluster --nodegroup-name my-worker-node --node-type t2.micro --nodes 3 --managed --region us-west-2
 
 
+     eksctl delete cluster --name my-eks-cluster-1 --region us-west-2
+
+
+
 
 
 
